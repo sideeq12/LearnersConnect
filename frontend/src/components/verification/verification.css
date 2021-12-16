@@ -1,0 +1,54 @@
+.verify{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+.verify h3 span{
+    color: #02083E;
+}
+.verify .veriNav{
+    position: fixed;
+    top: 20px;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    z-index: 1;
+}
+.verify .veriNav nav{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.verify .veriNav ul{
+    margin-right: 150px;
+    display: flex;
+}
+.verify .veriNav ul li{
+    list-style : none;
+    margin-right: 50px;
+}
+.verify .veriNav ul li a{
+        text-decoration: none;
+        font-weight: 500;
+}
+.pin{
+    text-align: center;
+    width: 400px
+}
+.pin input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+    width: 30px;
+    margin: 10px;
+}
+.verify .veri{
+    padding: 15px 100px;
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #02083E;
+}
