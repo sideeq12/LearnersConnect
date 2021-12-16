@@ -1,5 +1,5 @@
 import React from "react";
-import './first-sign.css'
+
 
 const First_Sign = ()=>{
     return (

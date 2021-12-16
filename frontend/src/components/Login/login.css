@@ -9,6 +9,7 @@
     width: 60vw;
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
     justify-content: center;
 }
 .secondLogin nav{
@@ -16,6 +17,13 @@
     font-size: 30px;
     margin-top: 35px;
     margin-left: 40px;
+}
+.secondLogin p{
+    color: white;
+    width: 80%;
+    margin-top: -15px;
+    text-align: center;
+    align-self: center;
 }
 .login{
     font-size: 15px;
@@ -25,24 +33,30 @@
     padding-left: 50px;
     padding-top: 100px;
 }
-.login ul{
+.first_nav{
+    position: fixed;
+    top : 20px;
+    right: 20px;
     display: flex;
-    margin-top: -40px;
-    margin-bottom: 100px;
-    margin-left: 60px;
 }
-.login ul li{
+
+.first_nav li{
     list-style: none;
     margin-right: 50px;
 }
-.login ul li a:hover{
+.first_nav li a{
+    text-decoration: none;
+}
+.first_nav li a:hover{
  font-size: 20px;
  padding: 5px 10px;
 color: white;
  background-color: #02083E;
  transition: .2s;
  cursor: pointer;
-}
+} 
+
+
 .login h2{
     color: #02083E;
     font-size: 45px;
@@ -75,4 +89,29 @@ color: white;
 .login a{
     text-decoration: none;
     color: #02083E;
+}
+
+
+@media (max-width : 720px) {
+    .mainLogin{
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+    .secondLogin, .login{
+        width: 100vw;
+    }
+    .first_nav{
+        display: none;
+    }
+    .first_nav li{
+        margin-right: 20px;
+    }
+    .first_nav li a{
+        color: white;
+    }
+    .login{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
 }

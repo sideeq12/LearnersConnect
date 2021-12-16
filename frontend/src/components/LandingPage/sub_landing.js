@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import image from "./first.png"
 
 const firstSection = ()=>{
@@ -8,7 +9,7 @@ const firstSection = ()=>{
                 <h2>Na person wey wan help me with my skills i wan dey follow chat now.</h2>
                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                          av.jdsohf ioeha Lorem Ipsum has</p>
-                     <a href="#">Let's roll</a>
+                     <a href="#"><Link to="/Login">Let's roll </Link></a>
             </div>
             <div className="imageSection">
                 <img src={image} alt="the welcome image section for Learner's Connect" />

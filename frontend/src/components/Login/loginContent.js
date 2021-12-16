@@ -1,10 +1,9 @@
 import React from "react";
-import FirstNav from "./firstNav";
+import { Link } from "react-router-dom";
 
 const LoginDetails = ()=>{
     return(
         <div className="login">
-            <FirstNav />
             <h2>Welcome Back</h2>
             <h4>Login to your account </h4>
         <form>
@@ -12,7 +11,7 @@ const LoginDetails = ()=>{
             <input type="email" placeholder="example@oauife.edu.ng" required /> <br/>
             <label>Password : </label> <br/>
             <input type="password" placeholder="******" required /> <br/>
-            <button type="submit" value="submit">Login</button>
+            <button type="submit" value="submit"><Link to="/dashboard"> Login </Link></button>
         </form>
          Don't have an account ? <a href="#">Sign up here</a>
         </div>
