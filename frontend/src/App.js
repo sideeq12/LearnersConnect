@@ -4,6 +4,7 @@ import Login from './components/Login/Login';
 import SignUp from './components/SignUp/first-sign';
 import Dashboard from './components/dashboard/Dashboard';
 import Verify from './components/verification/verify';
+import Profile from "./components/Profile/profile"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 
@@ -16,6 +17,7 @@ function App() {
      <Route path="/signUp" element={<SignUp /> } />
      <Route path="/dashboard" element={<Dashboard /> } />
      <Route path="/verification" element={<Verify /> } />
+     <Route path="/profile" element={<Profile /> } />
  </Routes>
     </Router>
    

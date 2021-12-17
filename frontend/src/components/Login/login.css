@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,400;1,400;1,500&display=swap');
 
 .mainLogin{
     height: 100vh;
     overflow: hidden;
     background-color: #02083E;
     display: flex;
+    font-family: 'Poppins', sans-serif;
 }
 .secondLogin{
     width: 60vw;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
 }
 .secondLogin nav{
@@ -85,6 +86,11 @@ color: white;
     border: none;
     background-color: #02083E;
     margin-bottom: 10px;
+}
+.login form button a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
 }
 .login a{
     text-decoration: none;

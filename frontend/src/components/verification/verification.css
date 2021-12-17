@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,400;1,400;1,500&display=swap');
+
 .verify{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;  
+    font-family: 'Poppins', sans-serif;
 }
 .verify h3 span{
     color: #02083E;
