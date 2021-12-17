@@ -1,0 +1,14 @@
+.userDetails{
+    display: flex;
+    height: 350px;
+    width: 75vw;
+    background-color: blueviolet;
+    justify-content: space-around;
+    align-items: center;
+}
+.userDetails img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border : 10px solid rgba(0, 0, 0, 0.363);
+}
