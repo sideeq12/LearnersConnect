@@ -1,16 +1,16 @@
 import React from "react";
 import { Link, Routes, Route } from "react-router-dom";
 import NavLinks from "../NavLink/navLink";
-import "./dashboard.css"
+import "./template.css"
 
 
-const Dashboard =()=>{
+const TemplateList =()=>{
     return (
         <div className="dashboardWrap">
             <NavLinks /> 
-            <h1>testing</h1>
+            <h2>Template List table here</h2>
             </div>
     )
 }
 
-export default Dashboard;
+export default TemplateList;

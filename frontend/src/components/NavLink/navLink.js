@@ -6,7 +6,7 @@ import close from "./whiteclose.svg"
 
     
 
-const NavLink = ()=>{
+const NavLinks = ()=>{
     const [ToggleMenu, setToggleMenu] = useState(false)
     const [myImage, setMyImage] = useState(menu)
     const [screenWidth, setScreenWidth] = useState( window.innerWidth)
@@ -39,13 +39,13 @@ const NavLink = ()=>{
                 <div className="myNav">
                 <nav>Logo here</nav>
                 <ul>
-                <li> <Link to="/">Profile</Link>
+                <li> <Link to="/dashboard">Profile</Link>
                     </li>
-                    <li> <Link to="/">Template list</Link>
+                    <li> <Link to="/templatelist">Template list</Link>
                     </li>
-                    <li> <Link to="/">New skill</Link>
+                    <li> <Link to="/newskill">New skill</Link>
                     </li>
-                    <li> <Link to="/">Contact support.</Link>
+                    <li> <Link to="/support">Contact support.</Link>
                     </li>
             </ul>
             </div>
@@ -54,4 +54,4 @@ const NavLink = ()=>{
     )
 }
 
-export default NavLink;
+export default NavLinks;
