@@ -13,7 +13,7 @@ const LoginDetails = ()=>{
             <input type="password" placeholder="******" required /> <br/>
             <button type="submit" value="submit"><Link to="/dashboard"> Login </Link></button>
         </form>
-         Don't have an account ? <a href="#">Sign up here</a>
+         Don't have an account ?  <Link to="/signup">Sign up here </Link>
         </div>
     )
 }

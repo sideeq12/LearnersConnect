@@ -1,16 +1,16 @@
 import React from "react";
 import { Link, Routes, Route } from "react-router-dom";
 import NavLinks from "../NavLink/navLink";
-import "./dashboard.css"
+import "./support.css"
 
 
-const Dashboard =()=>{
+const Support =()=>{
     return (
         <div className="dashboardWrap">
             <NavLinks /> 
-            <h1>testing</h1>
+            <h1>Support testing</h1>
             </div>
     )
 }
 
-export default Dashboard;
+export default Support;

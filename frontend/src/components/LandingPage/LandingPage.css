@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,400;1,400;1,500&display=swap');
+
 .Wrapper{
     background: #02083E;
     color: white;
+    font-family: 'Poppins', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
 }
 header{
     display: flex;
