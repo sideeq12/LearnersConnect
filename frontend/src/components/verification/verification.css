@@ -55,3 +55,39 @@
     text-decoration: none;
     background-color: #02083E;
 }
+
+@media (max-width : 800px) {
+    .verify h3{
+        width: 80vw;
+        font-size: 15px;
+    }
+    .verify .veri{
+        padding: 10px 50px;
+    }
+    .verify .veriNav nav{
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .verify .veriNav ul {
+        margin-right: 10px;
+    }
+    .verify .veriNav ul li{
+        margin-right: 10px;
+        font-size: 15px;
+        width: fit-content;
+    }
+    .verify .veriNav ul li a{
+        color: white;
+    }
+    .verify .veriNav{
+        background-color: #02083E;
+        color: white;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        /* align-items: center; */
+        height: 10vh;
+    }
+}

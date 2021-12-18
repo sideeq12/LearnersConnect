@@ -35,9 +35,10 @@ const NavLinks = ()=>{
  
     return ( <>
     <img src={myImage} alt="menu icon for learnersConnect" onClick={MenuChange}  className="iconImage" />
+    
             { (ToggleMenu || screenWidth >800) && (
                 <div className="myNav">
-                <nav>Logo here</nav>
+                    <nav>Logo here</nav>
                 <ul>
                 <li> <Link to="/dashboard">Profile</Link>
                     </li>

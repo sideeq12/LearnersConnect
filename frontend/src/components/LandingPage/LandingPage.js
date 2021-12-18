@@ -10,7 +10,7 @@ import Footer from "./footer";
 
 const LandingPage = ()=>{
     return (
-        <div className="">
+        <div className="squeeze">
             <NavStyle />
             <Welcome />
             <Mission />

@@ -58,7 +58,7 @@
 
 @media (max-width : 800px) {
     .layout{
-        padding-top: 80px;
+        padding-top: 100px;
         width: 100vw;
         padding-left: 25px;
         padding-right: 25px;
@@ -76,6 +76,7 @@
     }
     .userDetails p b{
         font-size: 20px;
+        width: 200px;
     }
     
     .tagsection{
@@ -84,7 +85,7 @@
     .tagsection .tagList p{
         width: 90vw;
         text-align: left;
-        font-size: 15px;
+        font-size: 12px;
     }
     .tagsection .aboutTag{
         width: 80vw;
@@ -92,4 +93,7 @@
     .skillList{
         width: 100vw;
     }
+    /* .skillList{
+        background-color: green;
+    } */
 }

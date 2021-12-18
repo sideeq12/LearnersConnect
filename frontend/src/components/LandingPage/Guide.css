@@ -1,4 +1,5 @@
 .guide{
+    scroll-snap-align: start;
     height: 100vh;
     width: 100vw;
     padding-top: 200px;
@@ -18,7 +19,7 @@
     padding: 20px;
     height: 300px;
     text-align: left;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: -10px 10px 20px rgba(0, 0,0,0.3);
     border-radius: 10px;
 }
 .guide .guideCard:hover{
@@ -37,4 +38,15 @@
     height: 5px;
     background-color: #02083E;
     align-self: left;
+}
+@media (max-width : 800px) {
+    .guide{
+        height: fit-content;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .guide .cardWrap{
+        flex-direction: column;
+        gap: 2em;
+    }
 }

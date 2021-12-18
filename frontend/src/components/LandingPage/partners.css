@@ -1,4 +1,5 @@
 .partners{
+    scroll-snap-align: start;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -19,4 +20,24 @@
 }
 .partners .partnerList h3{
     color: #02083E;
+}
+@media (max-width : 800px) {
+    .partners{
+        width: 100vw;
+        overflow-x: hidden;
+        height: fit-content;
+    }
+    .partners .partnerList{
+        flex-direction: column-reverse;
+        height: 500px;
+        padding-bottom: 50px;
+        gap : 4em;
+    }
+    .partners .partnerList .partnerImage .image{
+        object-fit: cover;
+        height: 200px;
+    }
+    .partners .partnerList .partnerImage .image img{
+        height: 100%;
+    }
 }

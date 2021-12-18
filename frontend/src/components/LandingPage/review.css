@@ -1,4 +1,5 @@
 .Review{
+    scroll-snap-align: start;
     height: 100vh;
     width: 100vw;
     background-color: #02083E;
@@ -20,4 +21,29 @@
     height: 200px;
     width: 200px;
     border-radius: 100%;
+}
+@media (max-width : 800px) {
+    .Review{
+        height: fit-content;
+        overflow: hidden;
+        padding-top: 70px;
+    }
+    .Review .ReviewList{
+        gap: 2em;
+        width: 100vw;
+        flex-direction: column;
+    }
+    /* .Review .ReviewList .rev0{
+        animation: slide0 9s linear infinite;
+        display: none;
+    }
+    .Review .ReviewList .rev1{
+        animation: slide1 9s linear infinite;
+        display: none;
+    }
+    .Review .ReviewList .rev2{
+        animation: slide2 9s linear infinite;
+        display: none;
+    } */
+       
 }

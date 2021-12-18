@@ -1,4 +1,5 @@
 .mission{
+    scroll-snap-align: start;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -13,4 +14,10 @@
     margin-top: 20px;
     text-align : center;
     color: #02083ec7;
+}
+@media (max-width : 800px) {
+    .mission p{
+        width: 80vw;
+        font-size: 15px;
+    }
 }

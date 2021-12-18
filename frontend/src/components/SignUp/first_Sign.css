@@ -95,3 +95,56 @@
 .mainSignup .text a{
     text-decoration: none;
 }
+@media (max-width : 800px) {
+    .CoverPage{
+        height: fit-content;
+        padding-bottom: 100px;
+    }
+    .CoverPage .cover{
+        flex-direction: column;
+    }
+    .CoverPage .cover .imageSignUp{
+        width: 100vw;
+    }
+    .CoverPage .cover .mainSignup{
+        width: 100vw;
+    }
+    .CoverPage .cover .mainSignup form{
+        margin-left: 40px;
+    }
+    .mainSignup input{
+        width: 200px;
+        height: 25px;
+        margin-bottom: 10px;
+    }
+    .mainSignup .btn{
+        width: 210px;
+        height: 35px;
+    }
+    .mainSignup h2{
+        margin-left: 40px;
+        width: 300px;
+    }
+    .mainSignup .text{
+        margin-left: 40px;
+        width: 200px;
+    }
+    .headNav {
+        background-color: #02083E;
+    }
+    .headNav nav{
+        color: white;
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .headNav ul{
+        margin-right: 10px;
+    }
+    
+    .headNav ul li{
+        margin-left: 10px;
+        font-size: 15px;
+        /* background-color: green; */
+    }
+}

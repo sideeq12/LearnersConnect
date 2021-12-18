@@ -1,4 +1,5 @@
 .welcome{
+    scroll-snap-align: start;
     height : 100vh;
     width : 100vw;
     background-color : #02083E;
@@ -6,22 +7,43 @@
     display : flex;
     justify-content : center;
     align-items : center;
+    flex-wrap: nowrap;
+    gap: 2em;
 }
-.welcome .textSection{
-    width : 45vw;
+.welcome .textSection, .welcome .imageSection{
+    width : 45vw; 
 }
 
 .welcome .imageSection{
-    width:  40vw;
-    margin-left: -150px;
-    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    /* animation : imagesection;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; */
+}
+.welcome .imageSection img{
+    width: 100%;
+}
+@keyframes imagesection {
+    0%{
+        margin-left: 1
+        50px;
+    }
+    50%{
+margin-left: -250px;
+    }
+    90%{
+        margin-left: -150px;
+    }
+
 }
 .welcome .textSection p{
-
     color: rgba(255, 255, 255, 0.664);
     font-weight: bold;
 }
-.welcome .textSection b{
+.welcome .textSection h1{
     font-size : 40px;
 }
 .welcome .textSection .get{
@@ -39,4 +61,23 @@
 .welcome .textSection .get a{
     text-decoration: none;
     font-weight: bold;
+}
+
+@media (max-width : 800px) {
+    .welcome .textSection b{
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    .welcome .textSection p{
+        font-size: 15px;
+    }
+    .welcome{
+        flex-direction: column;
+        padding-top: 120px;
+        height: 100%;
+    }
+    .welcome .textSection,.welcome .imageSection{
+        width: 80vw;
+    }
+    
 }
