@@ -1,0 +1,40 @@
+.guide{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 200px;
+    text-align : center;
+}
+.guide .cardWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 30px;
+}
+
+.guide .guideCard{
+    margin-right: 30px;
+    width: 200px;
+    padding: 20px;
+    height: 300px;
+    text-align: left;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+}
+.guide .guideCard:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    cursor: pointer;
+}
+.guide .guideCard h2{
+    height: 100px;
+    color: #02083E;
+    font-size: 35px;
+    margin-left: 15px;
+}
+.guide .guideCard hr{
+    width: 40%;
+    height: 5px;
+    background-color: #02083E;
+    align-self: left;
+}

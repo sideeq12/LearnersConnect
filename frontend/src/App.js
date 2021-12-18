@@ -1,5 +1,5 @@
 import './App.css';
-import LandingPage from './components/LandingPage/LandingPage';
+import LandingPage from './components/LandingPage/Landingpage';
 import Login from './components/Login/Login';
 import SignUp from './components/SignUp/first-sign';
 import Dashboard from './components/dashboard/Dashboard';

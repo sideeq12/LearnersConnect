@@ -1,0 +1,28 @@
+.homeNav{
+    background-color: #02083E;
+    height : 100px;
+    width: 100vw;
+    z-index : 1;
+    position : fixed;
+    color : white;
+    display : flex;
+    justify-content : space-between;
+}
+
+.homeNav nav{
+    font-size: 35px;
+    margin-top : 30px;
+    margin-left : 100px;
+}
+.homeNav ul{
+    margin-top : 40px;
+    display : flex;
+}
+.homeNav ul li{
+    list-style : none;
+    margin-right : 100px;
+}
+.homeNav ul li a{
+    color : white;
+    text-decoration : none;
+}

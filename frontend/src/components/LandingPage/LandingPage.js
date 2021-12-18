@@ -1,21 +1,24 @@
 import React from "react";
-import FirstSection from "./sub_landing";
-import LandNav from "./LandNav";
-import "./LandingPage.css"
-import SecondSection from "./secondSection";
-import WorkFlow from "./WorkFlow";
+import "./landing.css"
+import NavStyle from "./nav"
+import Welcome from "./welcome"
+import Mission from "./mission";
+import Guide from "./guide";
+import Review from "./Review";
+import Partners from "./patners";
+import Footer from "./footer";
 
 const LandingPage = ()=>{
     return (
-        <div>
-        <div className="Wrapper">
-            <LandNav />
-            <FirstSection />
-            </div>
-            <SecondSection />
-            <WorkFlow />
-            </div>
+        <div className="">
+            <NavStyle />
+            <Welcome />
+            <Mission />
+            <Guide />
+            <Review />
+            <Partners />
+            <Footer />
+        </div>
     )
 }
-
 export default LandingPage;
