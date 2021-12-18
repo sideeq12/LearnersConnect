@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,400;1,400;1,500&display=swap');
 
 .myNav{
-    width: 20vw;
+    width: 25vw;
     height: 100vh;
     background-color: #02083E;
     padding-top: 100px;
@@ -33,10 +33,12 @@
         position: fixed;
         top: 40px;
         right: 50px;
-        z-index: 1;
+        z-index: 2;
         display: block;
     }
     .myNav{
+        position: fixed;
+        z-index: 1;
         padding-top: 0px;
         width: 100vw;
         height: 100vh;

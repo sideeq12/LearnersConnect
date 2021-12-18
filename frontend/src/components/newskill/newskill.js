@@ -8,7 +8,7 @@ const NewSkill =()=>{
     return (
         <div className="dashboardWrap">
             <NavLinks /> 
-            <h2>New skill layoout</h2>
+            <h2>New skill layout</h2>
             </div>
     )
 }
