@@ -3,7 +3,7 @@ import "./Guide.css"
 
 const Guide = ()=>{
     return (
-        <section className="guide">
+        <section className="guide" id="guide">
             <h3>How it works</h3>
             <div className="cardWrap">
             <div className="guideCard">

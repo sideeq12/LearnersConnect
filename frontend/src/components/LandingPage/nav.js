@@ -33,12 +33,12 @@ useEffect(()=>{
     return (
         <>
         <img src={myImage} alt="styling" className="menuBtn" onClick={changeIcon} />
+         <div className="ourNav"><nav>Leaner'sConnect </nav></div>
        {((ToggleMenu || screenWidth>800) && ( <div className="homeNav">
-       <nav>Leaner'sConnect </nav>
        <ul>
-       <li><Link to="/">Enroll</Link></li>
-       <li><Link to="/">About</Link></li>
-       <li><Link to="/">Contact Us.</Link></li>
+       <li><Link to="/SignUp">Enroll</Link></li>
+       <li><Link to="/Reviews">About</Link></li>
+       <li><Link to="/contact">Contact Us.</Link></li>
        </ul>
        </div>))} 
         </>

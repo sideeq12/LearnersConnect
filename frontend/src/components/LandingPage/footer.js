@@ -3,7 +3,7 @@ import "./footer.css"
 
 const Footer = ()=>{
     return (
-        <div className="footer">
+        <div className="footer" id="footer">
             <div className="leftText">
                 <p>Obafemi Awolowo Uni.
 Depart. Computer science.

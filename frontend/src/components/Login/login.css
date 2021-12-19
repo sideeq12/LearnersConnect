@@ -98,14 +98,29 @@ color: white;
 }
 
 
-@media (max-width : 720px) {
+@media (max-width : 800px) {
     .mainLogin{
         display: flex;
         flex-direction: column;
         overflow-y: scroll;
+        width: 100vw;
+        overflow-x: hidden;
     }
     .secondLogin, .login{
         width: 100vw;
+        padding-bottom: 20px;
+    }
+    .login h2{
+        font-size: 25px;
+        width: 200px;
+    }
+    .login form{
+        width: 200px;
+    }
+    .login form button {
+        width: 220px;
+        border: none;
+        border-radius: 5px;
     }
     .first_nav{
         display: none;
